@@ -23,8 +23,8 @@ export default function Movie({ movies }) {
                     src={"https://image.tmdb.org/t/p/original" + movie.backdrop_path}
                     className="absolute object-cover object-center min-h-[calc(100vh-80px)] h-fit w-screen brightness-[0.4] -z-30"
                 />
-                <div className="w-screen min-h-[calc(100vh-80px)] flex flex-col items-center p-10 space-y-10 bg-gradient-to-b from-transparent via-black to-black
-                    sm:flex-row sm:space-x-10 sm:bg-gradient-to-b sm:from-transparent sm:to-black">
+                <div className="w-screen min-h-[calc(100vh-80px)] flex flex-col items-center p-10 space-y-10 bg-gradient-to-b from-transparent via-black to-black overflow-hidden
+                    sm:flex-row sm:space-x-10 sm:bg-gradient-to-b sm:from-transparent sm:to-black sm:overflow-hidden">
                     <img
                         className="w-[200px] shadow-lg shadow-black rounded-md 
                         sm:w-[250px]"
